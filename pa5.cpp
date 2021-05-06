@@ -29,8 +29,8 @@ public:
         bool GprimeCheckL[286]= {false};
         bool GprimeCheckR[286]= {false};
         
-        int G = 0;
         int Gprime = 0; 
+        int G = 0;
         
         for (int i = 0; i < graph.size(); ++i) {
             if (GprimeCheckL[i] == false) 
